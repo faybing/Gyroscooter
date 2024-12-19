@@ -1,0 +1,644 @@
+*{
+    box-sizing: content-box;
+    margin:0;
+    padding:0;
+}
+h1{
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+a:visited{
+    color:#000000;
+}
+.BATON{
+    width: 230px;
+    padding-left: 200px;
+}
+body{  
+    font-family: 'Verdana';  
+    width:          100%; 
+    height:         100%;
+}
+.header{
+    background-color: #fff;
+    font-family: 'Verdana';
+    font-size:      16px;
+    top:             0px;
+    padding-top:    10px;
+    position:     sticky;
+    z-index:           2;
+    
+}
+.COLUMNUS{
+    padding-left:  480px;
+    display: flex;
+}
+.COLUMNUS_MINI{
+padding-top: 20px;
+}
+.head1{
+    height:         40px;
+    
+}
+.orange_button{
+    background-color: #ffa019;
+    float:         right;
+    border:         none;
+    border-radius:  10px;
+    margin-left:   373px;
+    margin-bottom:  10px;
+}
+button:hover { 
+    transform: skew(-8deg);
+}
+button:active { 
+    transform: skew(-8deg);
+    opacity:         0.3;
+    background-color: #ff6e0d;
+}
+.orange_button p{
+    margin-right:   35px; 
+    margin-left:    35px; 
+    margin-top:     10px; 
+    margin-bottom:  10px; 
+    font-size:      12px;
+    font-weight:    bold;
+    color:       white;
+}
+.head2 h2{
+    margin-left:    15px;
+    padding-top:     5px;
+    font-weight:  normal;
+    font-size:      13px;
+    color: #d6d6d6;
+}
+
+.mainPicture{
+    width:          100%;
+    height:         100%;
+    background: url("images/img1.jpg");
+    background-size: cover;
+    padding-top:   860px;
+    position:   relative;
+    filter: brightness(40%);
+}
+.image1 {
+    width:          100%;
+    height:         100%;
+    display:       block;
+    width:          auto;
+}
+.mainPictureFront{
+    position:   absolute;
+    top:           220px; 
+    left:          600px;
+    color:         white;
+}
+
+.mainPictureFront p{
+    text-align:   center;
+}
+.mainPictureFront #p1{
+    padding-top:   280px;
+    font-size:      40px;
+}
+.mainPictureFront #p2{
+    padding-top:    24px;
+}
+.mainPictureFront #p2,.mainPictureFront #p3{
+    font-size:      20px;
+}
+.mainPictureFront button{
+    margin-left:   237px;
+    margin-top:     28px;
+    padding:         9px;
+    padding-left:   30px;
+    padding-right:  30px;
+    border-radius:  15px;
+    font-weight:    bold;
+}
+.title{
+    font-size:      25px;
+    padding-top:    50px;
+    padding-bottom: 50px;
+}
+.arrowLeft{
+    padding-left:  700px;
+}
+.arrowLeft,.arrowRight{
+    padding-top:40px;
+    width: 3%;
+    height:10%;
+}
+.arrowLeft:active,.arrowRight:active{
+    height:50px;
+}
+.ben1,.benStr1{
+    padding-top:    30px;
+}
+.ben2,.ben3,.ben4{
+    padding-top:    30px;
+    padding-left:  140px;
+}
+.benStr1{
+    padding-top:    20px;
+}
+.benStr2,.benStr3,.benStr4{
+    padding-top:    20px;
+    padding-left:  110px;
+}
+.benStr2{
+    padding-top:    20px;
+    padding-left:  120px;
+}
+.thirdPage{
+    display:       table;
+    padding-bottom: 50px;
+}
+.thirdPageP1{
+    padding-top:    10px;
+    font-size:      18px;
+}
+.thirdPageP2{
+    font-size:      18px;
+    padding-bottom: 30px;
+}
+.orangeLine{
+    padding-top:    20px;
+    padding-bottom: 20px;
+    background-color: #ffa019;
+    color:         white;
+}
+.orangeLineLeftHalf{
+    width: 100%;
+}
+.orangeLine input {
+    width:         270px;
+    height:        23px;
+    border-color:  white;
+    background-color: #ffa019;
+    margin-left:10px;
+}
+.orangeLine button{
+    background-color: white;
+    height:         23px;
+    float:         right;
+    border:        white;
+    margin-left:    50px;
+    margin-bottom:  10px;
+    color:         black;
+    margin-right:  400px;
+    padding-right:  25px;
+    padding-left:   25px;
+}
+.squares>p{
+    float:          left;
+}
+.table2 td{
+    width:         380px;
+}
+.forthPage{
+    padding-top:    20px;
+}
+.all_button{    
+    background-color: #ffa019;
+    float:         right;
+    border:         none;
+    border-radius:  10px;
+    margin-left:   510px;
+    margin-bottom:  10px;
+    color:         white;
+    padding-right:  10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title_item{
+    font-size:      15px;
+    padding-left:   10px;
+}
+.imagesLine{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 430px;
+}
+.catalog{
+    height:        260px;
+    width:         180px;
+}
+.catalog img{
+    width: 120px;
+    height: 150px;
+    padding-left: 30px;
+}
+.price{
+    font-weight: bold;;
+}
+.price,.productName{
+    padding-left: 15px;
+}
+.orangeLabel{
+    height: 30px;
+    border-radius: 0 25px 25px 0;
+    background-color: #ffa019;
+    display: inline-block;
+    padding-top: 7px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-top:12px;
+    color: white;
+}
+.consultant{
+    height:        160px;
+    width:         270px;
+    display: flex;
+    justify-content: space-between;
+}
+.consultantName{
+    font-size: 20px;
+    margin-top:20px;
+}
+.menegerLabel{
+    font-size: 12px;
+    font-style: italic;
+    margin-top:10px;
+}
+.consultant img {
+    height: 160px;
+}
+.cunsultantRightHalf{
+    margin-left:15px;
+    margin-right:5px;
+}
+.consultantButton{
+    background-color: #ffa019;
+    border:         none;
+    border-radius:  10px;
+    margin-top: 20px;
+}
+.consultantButton p{
+    margin-right:   20px; 
+    margin-left:    20px; 
+    margin-top:     10px; 
+    margin-bottom:  10px; 
+    font-size:      12px;
+    font-weight:    bold;
+    color:         white;
+}
+.brends {
+    margin-top: 60px;
+    padding-top:    30px;
+    padding-bottom: 30px;
+    display:        flex;
+    justify-content: space-between;
+    background-color: #ecebeb;
+}
+.brends p{
+    padding-left:   40px;
+    padding-right:  40px;
+    font-size:      20px;
+
+}
+.useful_information img{
+    width:200px;
+    height: 200px;
+}
+.usefulPicture{
+    width:          300px;
+    height:         200px;
+    filter: brightness(40%);
+}
+.pic1{
+    background: url("images/use1.jpg");    
+    background-size: 100%;
+}
+.picback{
+    display: flex;
+
+}
+.pic1front{
+    position: absolute;
+}
+
+.pic1front p{
+    color: white;
+    padding-left: 13px;
+}
+.pic1fistPage{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.pic2{
+    background: url("images/use2.jpg");  
+    background-size: 100%;
+}
+.pic2front{
+    position: absolute;
+    width: 200px;
+}
+
+.pic2front p{
+    color: white;
+}
+.pic2fistPage{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 8px;
+}
+.pic2secondPage{
+    text-align: center;
+    padding-left: 8px;
+}
+
+.pic3{
+    background: url("images/use3.jpg");  
+    background-size: 100%;
+}
+.pic3front{
+    position:   absolute;
+}
+
+.pic3front p{
+    color: white;
+}
+.pic3fistPage{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+.pic3secondPage{
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 20px;
+}
+.pic4{
+    background: url("images/use4.jpg");    
+    background-size: 100%;
+}
+.pic4front{
+    position:   absolute;
+}
+
+.pic4front p{
+    color: white;
+}
+.pic4fistPage{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 45px;
+}
+.pic4secondPage{
+    text-align: center;
+    padding-left: 20px;
+}
+.lastPage{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.leftHalf{
+    display: block;
+    width: 360px;
+}
+
+.topRow{
+    font-weight: bold;
+}
+.table2{
+    padding-right:70px;
+}
+.leftHalf{
+    padding-top: 30px;
+}
+.leftHalf p{
+
+    padding-bottom: 15px;
+}
+#copyright{
+    padding-top: 10px;
+
+}
+.table2firstColumn{
+    width:200px;
+}
+.table2thirdColumn{
+    margin-right:400px;
+    margin-top:30px;
+}
+.table2Column{
+    margin-top:30px;
+    margin-right:20px;
+}
+
+.table2title{
+    font-weight: bold;
+
+}
+@media (max-width: 1650px) {
+    .orangeLine button{
+    margin-right: 100px;
+    }
+    .table2firstColumn{
+        margin-left:450px;
+    }
+
+}
+@media (max-width: 1534px) {
+
+}
+
+@media (max-width: 1450px) {
+.COLUMNUS{
+    padding-left:200px;
+}
+    
+.imagesLine{
+    padding-right: 200px;
+}
+    
+.mainPictureFront{
+    top:       130px;
+    left:      440px;
+}
+
+.orangeLine button{
+margin-right: 250px;
+}
+}
+@media (max-width: 1330px) {
+    .imagesLine{
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1200px) {
+.COLUMNUS{
+        padding-left: 50px;
+    }
+    .orangeLine button{
+    margin-right: 160px;
+    }
+}
+@media (max-width: 1100px) {
+.COLUMNUS{
+        padding-left: 5px;
+    }
+}
+@media (max-width: 970px) {
+    h2,.orangeLineLeftHalf{
+    display: none;
+}
+    .head1 button{
+        margin-left:170px;
+    }    
+    .all_button{
+        margin-left: 250px;
+    }
+    .mainPictureFront{
+        left: 10px;
+    }
+    
+    .mainPictureFront button{
+        margin-left: 240px;
+    } 
+    .mainPictureFront{
+        left: 30px;
+    }
+    .benefitsLine img,.benefitsString p{
+        padding-left: 50px;
+        
+    }
+    .lastPage{
+        padding-left:30px;
+    }
+}
+
+@media (max-width: 920px) {
+    .arrowLeft{
+        padding-left: 600px;
+    }
+}
+@media (max-width: 815px) {
+    .arrowLeft{
+        padding-left: 500px;
+    }
+
+}
+@media (max-width: 780px) {
+    h2,.orangeLineLeftHalf{
+        display: none;
+    }
+    .orange_button{
+        padding-bottom: 40px;
+        margin: 0px;
+    }
+    .phone{
+        width: 430px;
+        margin-right: 0;
+    }
+    .imagesLine,.benefitsLine{
+        display: block;
+        margin-left: 170px;
+    }
+    .all_button{
+        margin-left: 200px;
+    }
+    .brends p{
+        padding-left: 2px;
+        padding-right: 2px;;
+    }
+    .lastPage{
+        display: block;
+    }
+    .benefitsString p{
+        width: 50px;
+    }    
+    .mainPictureFront{
+        left: 30px;
+    }
+    
+    .mainPictureFront button{
+        margin-left: 240px;
+    }
+    .mainPicture{
+        padding-top:700px;
+    }
+    .benefitsLine img{
+        padding-left: 10px;
+    }
+    .title{
+        padding-left: 30px;
+    }
+    .arrowLeft{
+        padding-left: 400px;
+    }
+}
+@media (max-width: 650px) {
+    .all_button{
+        margin-left: 100px;
+    }
+    .arrowLeft{
+        padding-left: 300px;
+    }
+}
+
+@media (max-width: 600px) {
+    .brends p{
+        font-size: 15px;
+    }
+    .mainPictureFront button{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 590px) {
+    .orangeLine button{
+        margin-left: 25px
+    }
+    .all_button{
+        margin-left: 70px;
+    }
+    .mainPictureFront button{
+        margin-left: 170px;
+    }
+}
+
+@media (max-width: 565px) {
+    .orangeLine button{
+        margin-left: 10px
+    }
+    .arrowLeft{
+        padding-left: 200px;
+    }
+    .mainPictureFront button{
+        margin-left: 150px;
+    }
+}
+@media (max-width: 550px) {
+    .orangeLine input{
+        width:140px
+    }
+}
+@media (max-width: 530px) {
+    .orange_button{
+        margin-left: 0px;
+    }
+    .phone{
+        width:212px;
+    }
+    #orange_button_id{
+        margin-left: 50px;
+
+    }
+}
+@media (max-width: 530px) {
+    .all_button{
+        margin-left: 40px;
+    }
+}
